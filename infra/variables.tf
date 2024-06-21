@@ -192,7 +192,7 @@ variable "openAIServiceName" {
 
 variable "openAiSkuName" {
   type    = string
-  default = "Free"
+  default = "S0"
 }
 
 variable "chatGptDeploymentName" {
@@ -238,7 +238,7 @@ variable "embeddingsDeploymentCapacity" {
 
 variable "formRecognizerSkuName" {
   type    = string
-  default = "Free"
+  default = "S0"
 }
 
 variable "appServicePlanName" {
@@ -249,13 +249,13 @@ variable "appServicePlanName" {
 variable "appServiceSkuSize" {
   description = "The size of the app service plan for the IA website. Must match with the tier value in appServiceSkuTier."
   type = string
-  default = "F1"
+  default = "S0"
 }
 
 variable "appServiceSkuTier" {
   description = "The tier of the app service plan for the IA website. Must match with the size value in appServiceSkuSize."
   type = string
-  default = "Free"
+  default = "Standard"
   
 }
 
