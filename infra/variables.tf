@@ -232,7 +232,7 @@ variable "sentenceTransformerEmbeddingVectorSize" {
 
 variable "embeddingsDeploymentCapacity" {
   type    = number
-  default = 240
+  default = 60
 }
 ////
 
@@ -370,7 +370,7 @@ variable "chatGptModelVersion" {
 
 variable "chatGptDeploymentCapacity" {
   type    = number
-  default = 240
+  default = 60
 }
 
 variable "chunkTargetSize" {
