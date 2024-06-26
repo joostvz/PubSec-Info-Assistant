@@ -197,7 +197,7 @@ variable "openAiSkuName" {
 
 variable "chatGptDeploymentName" {
   type    = string
-  default = "gpt-35-turbo-16k"
+  default = "gpt-4o"
 }
 
 variable "azureOpenAIEmbeddingDeploymentName" {
@@ -360,7 +360,7 @@ variable "chatWarningBannerText" {
 
 variable "chatGptModelName" {
   type    = string
-  default = "gpt-35-turbo-16k"
+  default = "gpt-4o"
 }
 
 variable "chatGptModelVersion" {
